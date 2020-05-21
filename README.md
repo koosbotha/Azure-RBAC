@@ -12,7 +12,7 @@ Open PowerShell ISE and ensure the command line is reflecting the folder the scr
 Step 3: Executing the Script to take an RBAC Assignment Snapshot
 a) To execute the script type: .\RBACReportv2.ps1 -keep
 
-b)You will be prompted to enter your credentials. Ensure you enter the correct credentials to access the Mott MacDonald tenant at a suitable role privilege to draw the report.
+b)You will be prompted to enter your credentials. Ensure you enter the correct credentials to access the tenant at a suitable role privilege to draw the report.
 
 c) You will then be prompted to select which subscription you want to run the RBAC report on. Select the corresponding Subscription number.
 
@@ -29,7 +29,7 @@ a) COPY the RBAC_Report CSV file that you have previously created as a snapshot 
 
 IMPORTANT NOTE: Ensure you COPY the file from your Archive, dont move it, as the script may overright your snapshot from before.
 
-b) Ensure that step 2 is performed, then execute the script as follows: .\RBACReportv2.ps1 -compare -PreviousReport .\RBAC_Report_[Snapshot Date].csv
+b) Ensure that step 2 is performed, then execute the script as follows: .\RBACReport.ps1 -compare -PreviousReport .\RBAC_Report_[Snapshot Date].csv
 
 Note that the last .\RBAC_Report_[Snapshot Date].csv must be the actual name of the report you want to compare your current RBAC role assignment to. This CSV is the CSV you bring back into the working folder via step a
 
