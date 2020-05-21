@@ -10,7 +10,7 @@ Step 2: Opening Powershell
 Open PowerShell ISE and ensure the command line is reflecting the folder the script is in.
 
 Step 3: Executing the Script to take an RBAC Assignment Snapshot
-a) To execute the script type: .\RBACReportv2.ps1 -keep
+a) To execute the script type: .\RBACReport.ps1 -keep
 
 b)You will be prompted to enter your credentials. Ensure you enter the correct credentials to access the tenant at a suitable role privilege to draw the report.
 
